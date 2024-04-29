@@ -1,0 +1,33 @@
+baseURL: ""
+languageCode: en-us
+title: A Demo for Hugo
+theme: PaperMod
+MetaDataFormat: yaml
+
+params:
+  homeInfoParams:
+    Title: 'Welcome'
+    Content: 'Welcome to my blog, please enjoy'
+
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+  ShowNavLinks: true
+
+menu:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 30
